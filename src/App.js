@@ -1,7 +1,7 @@
 import './App.css';
-import Boton from './componentes/boton.jsx';
-import logoFreeCodeCamp from './imagenes/freecodecamp-logo.png';
-import Contador from './componentes/contador.jsx'
+import Boton from './components/boton.jsx';
+import logoFreeCodeCamp from './images/freecodecamp-logo.png';
+import Contador from './components/contador.jsx'
 import { useState } from 'react';
 
 function App() {
@@ -10,11 +10,11 @@ function App() {
 
   const manejarClic = () => {
     setNumClics(numClics + 1);
-  }
+  };
 
   const reiniciarContador = () => {
     setNumClics(0);
-  }
+  };
 
   return (
     <div className="App">
